@@ -1,24 +1,25 @@
-# README
+# Rails 6.1 + Tailwind 2 + PostrgreSQL Boilerplate
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Rails 6.1.4.4
+* Ruby 2.7.1
 
-Things you may want to cover:
+## Use
 
-* Ruby version
+Clone the repository
+```sh
+$ git clone https://github.com/euisblue/rails6.1_tailwind2_postrgresql_boilerplate.git
+```
 
-* System dependencies
+Install dependencies
+```sh
+$ yarn install
+```
 
-* Configuration
+Run the rails server and the webpack dev server in another terminal
+```sh
+$ rails s
+``` 
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```sh
+$ bin/webpack-dev-server
+```
